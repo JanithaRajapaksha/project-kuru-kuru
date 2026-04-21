@@ -17,6 +17,28 @@ A Python script that processes audio files to remove noise and filter unwanted f
 - scipy
 - noisereduce
 
+## Installation
+
+1. Create a virtual environment:
+
+```bash
+python -m venv venv
+```
+
+2. Activate the virtual environment:
+
+```bash
+source venv/bin/activate  # On Linux/Mac
+# or
+venv\Scripts\activate     # On Windows
+```
+
+3. Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
 ## Usage
 
 1. Place your audio file in the `raw data/` directory
